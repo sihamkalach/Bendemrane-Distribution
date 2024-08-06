@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        .hidden {
+            display: none;
+        }
+        .show {
+            display: flex;
+        }
+        .hide-nav {
+            display: none;
+        }
+        .main.hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<section id="home">
+    <div class="video-background">
+        <video autoplay muted loop>
+            <source src="media/Vidéo sans titre ‐ Réalisée avec Clipchamp (8).mp4" type="video/mp4">
+            Votre navigateur ne supporte pas la balise vidéo.
+        </video>
+    </div>
+    <div class=" hidden" id="hiddenMenu">
+        <ul class="ul-hidden">
+            <h1>Menu</h1>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#expertise">Our Expertise</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#brands">Our Brands</a></li>
+            <li class="contact-button">
+            <a href="#contact" >Contact Us</a>
+            </li>
+        </ul>  
+    </div>
+    <nav class="navbar" id="nav">
+        <div class="logo" ><img src="media/logo.png" alt=""></div>
+        <div class="menu" id="menuButton"><img src="media/menu.png" alt="" width="40px"></div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#expertise">Our Expertise</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#brands">Our Brands</a></li>
+            <li><a href="#contact" class="contact-button">Contact Us</a></li>
+        </ul>    
+    </nav>
+    <div class="title-overlay">
+        <h1>Elevate Your Self-Care Experience With  <span> BENDEMRANE </span><span class="monaco">Distribution</span></h1>
+    </div>
+</section>
+<section id="expertise">
+    <div class="title">
+        <h1>Why To Choose Us</h1>
+    </div>
+    <div class="title">
+        <img src="media/separtor.png" alt="">
+    </div>
+    <div class="boxes">
+        <div class="box">
+            <div class="imgbox ">
+                <img src="media/regulatory-compliance.png" alt="">
+            </div>
+            <h4>Regulatory Affairs</h4>
+            <br>
+            <p>Dedicated regulatory team capable of handling all Moroccan Health Ministry (MOH) certification and registration process.</p>
+        </div>
+        <div class="box">
+            <div class="imgbox">
+                <img src="media/logistics.png" alt="">
+            </div>
+            <h4>Importation And Logistics</h4>
+            <br>
+            <p>Multiple Partnerships with leading freight forwarders providing high flexibility and speed to market.</p>
+        </div>
+        <div class="box">
+            <div class="imgbox">
+                <img src="media/suppliers.png" alt="">
+            </div>
+            <h4>Distribution And Merchandising</h4>
+            <br>
+            <p>we cover all the moroccan market with multiple distribution channels .</p>
+        </div>
+        <div class="box">
+            <div class="imgbox">
+                <img src="media/promotion.png" alt="">
+            </div>
+            <h4>Promotion And Sales</h4>
+            <br>
+            <p>Extensive analysis of the market and competitive environment. Excellence in Product and employee training.</p>
+        </div>
+    </div>
+
+</section>
+<section id="about">
+    <div class="title">
+        <h1>About Us</h1>
+    </div>
+    <div class="title">
+        <img src="media/separtor.png" alt="" width="300px">
+    </div>
+    <div class="about">
+        <div class="info">
+            <h2>Dedicated to excellence in distributing diverse global beauty, health, and personal care brands</h2>
+        <p>Bendemrane Distribution takes pride in being a dedicated distributor, curating a diverse selection that spans innovative hair care solutions, nourishing skincare, and top-tier beauty products. As the go-to source for cosmetic products in Morocco, we cater to the evolving needs of beauty and care enthusiasts. Our commitment to excellence extends beyond being beauty and care product distributors in Morocco.</p>
+        <a href="#" id="toggleLink" class="btn">View more</a>
+        </div>
+        <div class="img_info"><img src="media/image.png" alt="" width="500px"></div>
+        <div class="info_hidden">
+            <h2>Dedicated to excellence in distributing diverse global beauty, health, and personal care brands</h2>
+        <p>Bendemrane Distribution takes pride in being a dedicated distributor, curating a diverse selection that spans innovative hair care solutions, nourishing skincare, and top-tier beauty products. As the go-to source for cosmetic products in Morocco, we cater to the evolving needs of beauty and care enthusiasts. Our commitment to excellence extends beyond being beauty and care product distributors in Morocco.</p>
+        <a href="#" id="toggleLink3" class="btn">View more</a>
+        </div>
+    </div>
+    <!--Timeline-->
+    <div class="main" id="mainSection">
+        <div class="title">
+            <h2>Our Story</h2>
+        </div>
+        <div class="container">
+            <ul>
+                <li>
+                    <h3 class="story_title">Haytam Parfumerie Opened</h3>
+                    <p>We took a step in the world of beauty and care products with the establishment of Haytam Parfumerie. It marked the beginning of a vision to bring exquisite products to our clientele.</p>
+                    <span class="circle"></span>
+                    <span class="date">2017</span>
+                </li>
+
+                <li>
+                    <h3 class="story_title">Website Launch</h3>
+                    <p>We embraced the digital frontier with the launch of our e-commerce platform, <a href="https://haytamparfumerie.com/" target="_blank">HaytamParfumerie.com</a>. This move not only expanded our reach but also provided a seamless shopping experience for our Clientele across the country during the COVID19 Pandemic.</p>
+                    <span class="circle"></span>
+                    <span class="date">2019</span>
+                </li>
+
+                <li>
+                    <h3 class="story_title">Wholesale Network Establishment</h3>
+                    <p>Our horizons broadened as we ventured into wholesaling and reselling, extending the allure of our products to perfumeries across the country. This was a pivotal moment as we became not just a retailer but a key player in the distribution landscape.</p>
+                    <span class="circle"></span>
+                    <span class="date">2021</span>
+                </li>
+
+                <li>
+                    <h3 class="story_title">Bendemrane Distribution Founded</h3>
+                    <p>The launch of Bendemrane Distribution marked a strategic shift in our operations. This move allowed us to efficiently navigate a network that expanded from perfumeries to include parapharmacies, Drug Stores, other wholesalers, and thriving e-commerce businesses, fostering growth and reliability.</p>
+                    <span class="circle"></span>
+                    <span class="date">2022</span>
+                </li>
+
+                <li>
+                    <h3 class="story_title">HairCare Proteins Introduction</h3>
+                    <p>We proudly unveiled our very own hair protein brand, HairCare Brazil Proteins. This marks a significant milestone in our journey, as we step into the realm of hair care, blending quality and innovation to provide our customers with the best in hair nourishment.</p>
+                    <span class="circle"></span>
+                    <span class="date">2023</span>
+                </li>
+
+                <li>
+                    <h3 class="story_title">Introduction of Three New American brands</h3>
+                    <p>We undertook a significant stride by introducing the Moroccan market to three distinguished American brands: <a href="https://aztecsecret.com/" target="_blank">Aztec Secret</a>, <a href="https://yeouth.com/" target="_blank">Yeouth Skincare</a>, and <a href="https://jbeverlyhills.com/" target="_blank">J Beverly Hills</a>. Broadening our product portfolio and also bringing forth innovative and acclaimed offerings in skincare and haircare to The Moroccan Consumer.</p>
+                    <span class="circle"></span>
+                    <span class="date">2023</span>
+                </li>
+            </ul>
+        </div>
+        <div class="hide" id="hideSection">
+            <a href="#about" id="toggleLink2" class="btn">View less</a>
+        </div>
+    </div>
+</section>
+<section id="brands">
+    <div class="title">
+        <h1>Our Brands</h1>
+    </div>
+    <div class="title">
+        <img src="media/separtor.png" alt="" width="300px">
+    </div>
+    <div class="brands">
+        <div class="slider">
+            <a href="https://yeouth.com/" target="_blank"><img src="media/brand1.png" alt=""></a>
+            <a href="https://aztecsecret.com/" target="_blank"><img src="media/brand2.png" alt=""></a>
+            <a href="https://haircareprotein.com/" target="_blank"><img src="media/brand3.webp" alt=""></a>
+            <a href="https://jbeverlyhills.com/" target="_blank"><img src="media/brand4.webp" alt=""></a>
+            <a href="https://altruistsun.com/" target="_blank"><img src="media/brand5.webp" alt=""></a>
+            <a href="https://www.qandaskin.com/" target="_blank"><img src="media/brand6.png" alt=""></a>
+            <a href="https://www.iunikcos.com/" target="_blank"><img src="media/brand7.webp" alt=""></a>
+        </div>
+        <div class="slider">
+            <a href="https://yeouth.com/" target="_blank"><img src="media/brand1.png" alt=""></a>
+            <a href="https://aztecsecret.com/" target="_blank"><img src="media/brand2.png" alt=""></a>
+            <a href="https://haircareprotein.com/" target="_blank"><img src="media/brand3.webp" alt=""></a>
+            <a href="https://jbeverlyhills.com/" target="_blank"><img src="media/brand4.webp" alt=""></a>
+            <a href="https://altruistsun.com/" target="_blank"><img src="media/brand5.webp" alt=""></a>
+            <a href="https://www.qandaskin.com/" target="_blank"><img src="media/brand6.png" alt=""></a>
+            <a href="https://www.iunikcos.com/" target="_blank"><img src="media/brand7.webp" alt=""></a>
+        </div>
+    </div>
+</section>
+<section id="contact">
+    <div class="contact">
+        <div class="contact_img">
+            <div class="img"><img src="media/contact.webp" alt="" ></div>
+            <div class="details">
+                <img src="media/mail.png" alt="">
+                <h5>contact@BendemraneDistribution.com</h5>
+            </div>
+            <div class="details">
+                <img src="media/epingle.png" alt="" >
+                <h5>Galerie Bendemrane, Rue Mexique
+                    Tangier, Morocco 90010</h5>
+            </div>
+        </div>
+        <div class="contact_info">
+            <h1>GET IN TOUCH</h1>
+            <p>We would love to speak with you.</p>
+            <p>Feel free to reach out using the below details :)</p>
+            <form action="#">
+                <input type="text" name="name" id="" placeholder="Name">
+                <br><br>
+                <input type="email" name="email" id="" placeholder="Email">
+                <br><br>
+                <input type="text" name="message" id="" placeholder="Message">
+                <br><br>
+                <input class="btn" type="submit" value="Send">
+            </form> 
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="footer">
+        <h5>© 2024, Bendemrane Distribution</h5>
+        <h6>Developed By Siham Kalach</h6>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
