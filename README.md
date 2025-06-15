@@ -3,7 +3,7 @@
 Welcome to the official site showcasing Bendemrane Distribution, a leading hub for international and local cosmetics brand distribution in Morocco. Developed by **Siham Kalach** using modern web technologies.
 
 ---
-![Website Preview](./images/demo.png)
+![Website Preview](https://github.com/sihamkalach/Bendemrane-Distribution/blob/5811bbbdea9ca8fdb964d971f986e2e05267e162/beauty_brand.jpg)
 ---
 ## 🌐 Live Demo
 ➡️ [Check out the live site here](https://sihamkalach.github.io/Bendemrane-Distribution/)
